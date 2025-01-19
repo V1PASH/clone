@@ -5,12 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/* header {
-    position: sticky;
-    top: 0;
-} */
-
 body {
     height: 1200px;
     background-color: #eaeaea;
@@ -66,7 +60,7 @@ body {
 
 .location {
     color: rgb(174, 173, 173);
-    font-size: 65%;
+    font-size: 85%;
 }
 
 .up_location {
@@ -80,16 +74,16 @@ body {
 
 .search {
     display: flex;
-    width: 400px;
-    margin: 0px;
+    margin-left: 15px;
     padding-top: 7px;
     height: 30px;
 }
 
 .category {
     height: 130%;
-    width: 50px;
+    width: 70px;
     border: none;
+    padding-left: 10px;
     border-radius: 5px 0px 0px 5px;
     background-color: rgb(241, 240, 240);
 }
@@ -99,25 +93,25 @@ body {
 }
 
 .search_bar {
-    padding-left: 5px;
+    padding-left: 15px;
     height: 130%;
-    width: 335px;
+    width: 555px;
     border: none;
 }
 
 .search_button {
     padding: 8px;
-    height: 78%;
-    background-color: rgb(250, 175, 37);
+    height: 77%;
+    background-color: rgb(253, 195, 87);
     border-radius: 0px 5px 5px 0px;
 }
 
 .search_button:hover {
-    background-color: rgb(217, 20, 20);
+    background-color: rgb(255, 166, 0);
 }
 
 .language {
-    padding-left: 150px;
+    padding-left: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -187,15 +181,26 @@ body {
 
 .cart {
     font-size: 15px;
-    padding-bottom: 1%;
-    padding: 1.5% 5px;
     margin-right: 15px;
-    height: 10px;
+    padding: 0px 5px 0px 5px;
+    height: 50px;
+    display: flex;
 }
 
 .cart:hover {
     border: 1px solid white;
     border-radius: 2px;
+}
+
+.cart_text {
+    padding-top: 35%;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.cart_icon {
+    padding: 7px 5px 10px 5px;
+    font-size: 32px;
 }
 
 
@@ -206,6 +211,7 @@ body {
     color: aliceblue;
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
 }
 
 .top_menu .menus {
@@ -290,4 +296,8 @@ body {
     padding: 10px;
     width: 300px;
     background-color: rgb(255, 212, 81);
+}
+
+.sign-button:hover {
+    background-color: orange;
 }
