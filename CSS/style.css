@@ -133,9 +133,23 @@ body {
     padding: 5px 5px 5px 5px;
 }
 
-.lang_select:hover {
+.lang_select:hover .language-dropdown {
+    display: grid;
     border: 1px solid white;
     border-radius: 2px;
+}
+
+.language-dropdown {
+    display: none;
+    position: absolute;
+    list-style: none;
+    color: black;
+    top: 50px;
+    background-color: #ffffff;
+    width: 150px;
+    padding: 25px;
+    z-index: 100;
+    border-radius: 10px;
 }
 
 .sign {
@@ -264,11 +278,29 @@ body {
 .c-div {
     background-color: #ffffff;
     width: 310px;
+    height: 350px;
     padding: 28px 25px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.c-div img {
-    margin: 5px;
+.product-card-images {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pro {
+    width: 50%;
+}
+
+.pro img {
+    width: 95%;
+}
+
+.product-card-images a {
+    margin-top: 10%;
+    font-size: 13px;
 }
 
 
