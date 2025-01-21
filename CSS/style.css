@@ -19,7 +19,7 @@ body {
 
 .nav_bar {
     padding-top: 0.5%;
-    background-color: black;
+    background-color: #131A22;
     display: flex;
     color: white;
     justify-content: space-between;
@@ -366,10 +366,83 @@ body {
 
 .footer {
     color: #eaeaea;
-    padding: 1%;
     text-align: center;
     justify-content: center;
     background-color: #232F3F;
     height: 300px;
     width: 100%;
+}
+
+.top-bar-footer {
+    padding: 10px;
+    background-color: #465465;
+    text-decoration: none;
+    font-style: normal;
+    color: #ffffff;
+    width: 98.7%;
+}
+
+.mid-foot {
+    background-color: #232f3e;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.mid-2 {
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mid-3 {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    list-style: none;
+}
+
+.mid-3 ul {
+    padding-top: 5%;
+    font-size: 85%;
+    list-style: none;
+}
+
+.mid-3 ul li {
+    padding: 3%;
+}
+
+.end-foot {
+    text-align: left;
+    background-color: #131A22;
+    padding-bottom: 5%;
+}
+
+.mid-logo {
+    padding: 25px;
+}
+
+.mid-logo img {
+    height: 45px;
+}
+
+.mid-foot-2 {
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+}
+
+.end-foot ul {
+    margin-left: 25%;
+    padding-top: 3%;
+    display: flex;
+    list-style: none;
+}
+
+.end-foot ul li {
+    font-size: 75%;
+    width: 150px;
+}
+
+.end-foot ul li span {
+    color: #adadad;
 }
